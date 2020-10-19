@@ -14,8 +14,7 @@ import java.io.IOException;
 public class UserEdit extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         UserDao userDao = new UserDao();
-        User user = new User();
-        user.setId(Integer.parseInt(request.getParameter("id")));
+        User user = userDao.read(Integer.parseInt(request.getParameter("id")));
         user.setUserName(request.getParameter("name"));
         user.setEmail(request.getParameter("email"));
         user.setPassword(request.getParameter("password"));
