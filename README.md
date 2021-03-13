@@ -30,18 +30,18 @@ UserCRUD app gives you several endpoints:
 
 ## How does it work?
 1. Users list:
-![list_users][list_users]
+  ![list_users][list_users]
 1. Add user
-![add_user][add_user]
+  ![add_user][add_user]
 1. Show user details:
-![show_user][show_user]
+  ![show_user][show_user]
 1. Edit user
-![edit_user][edit_user]
+  ![edit_user][edit_user]
 1. Delete user
-![delete_user][delete_user]
+  ![delete_user][delete_user]
 
-[list_users]: https://github.com/MichalKamfonik/UsersCRUD/tree/images/list.png "Users list"
-[add_user]: https://github.com/MichalKamfonik/UsersCRUD/tree/images/add.png "Add user"
-[show_user]: https://github.com/MichalKamfonik/UsersCRUD/tree/images/show.png "Show user details"
-[edit_user]: https://github.com/MichalKamfonik/UsersCRUD/tree/images/edit.png "Edit user"
-[delete_user]: https://github.com/MichalKamfonik/UsersCRUD/tree/images/delete.png "Delete user"
+[list_users]: images/list.png "Users list"
+[add_user]: images/add.png "Add user"
+[show_user]: images/show.png "Show user details"
+[edit_user]: images/edit.png "Edit user"
+[delete_user]: images/delete.png "Delete user"
